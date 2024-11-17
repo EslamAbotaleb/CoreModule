@@ -8,14 +8,14 @@
     "file": "LICENSE"
   },
   "authors": {
-    "EslamAbotaleb": "e.baiomy@mobily.com.sa"
+    "EslamAbotaleb": "eslamabotaleb07@gmail.com"
   },
   "source": {
     "git": "https://github.com/EslamAbotaleb/CoreModule.git",
     "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "12.0"
   },
   "swift_versions": [
     "4.2",
@@ -27,5 +27,31 @@
   ],
   "requires_arc": true,
   "source_files": "CoreModule/Classes/**/*",
+  "resource_bundles": {
+    "CoreModule": [
+      "CoreModule/Assets/*.png"
+    ]
+  },
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "Alamofire": [
+
+        ],
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "RxAlamofire": [
+
+        ]
+      }
+    }
+  ],
   "swift_version": "5.9"
 }

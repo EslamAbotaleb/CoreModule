@@ -46,7 +46,7 @@
 		9F5875D328598C1BEA204E4E /* Pods_CoreModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD574DE85EAFD1AA0A6C3BC /* Pods-CoreModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-CoreModule_Example/Pods-CoreModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D58B8FE898ECA08ED44AC3B2 /* Pods-CoreModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreModule_Example.release.xcconfig"; path = "Target Support Files/Pods-CoreModule_Example/Pods-CoreModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D61AA5E73E2935CD7F181C0B /* CoreModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoreModule.podspec; path = ../CoreModule.podspec; sourceTree = "<group>"; };
+		D61AA5E73E2935CD7F181C0B /* CoreModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CoreModule.podspec; path = ../CoreModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
