@@ -1,0 +1,31 @@
+{
+  "name": "CoreModule",
+  "version": "0.0.1",
+  "summary": "A CoreModule is a set of essential helpers for iOS projects",
+  "homepage": "https://github.com/EslamAbotaleb/CoreModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EslamAbotaleb": "e.baiomy@mobily.com.sa"
+  },
+  "source": {
+    "git": "https://github.com/EslamAbotaleb/CoreModule.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "4.2",
+    "5",
+    "5.1",
+    "5.2",
+    "5.6",
+    "5.9"
+  ],
+  "requires_arc": true,
+  "source_files": "CoreModule/Classes/**/*",
+  "swift_version": "5.9"
+}

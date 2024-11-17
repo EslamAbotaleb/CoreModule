@@ -4,10 +4,38 @@ platform :ios, '10.0'
 
 target 'CoreModule_Example' do
   pod 'CoreModule', :path => '../'
+  pod 'Alamofire'
+  pod 'JGProgressHUD'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxAlamofire'
+  pod 'SwiftSoup'
+  pod 'MOLH'
+  pod 'JVFloatLabeledTextField'
+  pod 'CRRefresh'
+  pod 'FittedSheets'
+  pod 'ObjectMapper'
+  pod 'CryptoSwift'
+  pod 'netfox'
+  pod 'AnimatedCollectionViewLayout'
+  pod 'PopupDialog', '~> 1.1'
+  pod 'AzureNotificationHubs-iOS'
+  pod 'Expression'
+  pod 'SVGKit'
+  pod 'Toast-Swift', '5.0.1'
 
   target 'CoreModule_Tests' do
     inherit! :search_paths
+  end
+end
 
-    
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['CONFIGURATION_BUILD_DIR'] = '$PODS_CONFIGURATION_BUILD_DIR'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+    end
   end
 end

@@ -6,32 +6,33 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'CoreModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CoreModule.'
+Pod::Spec.new do |spec|
+  spec.name             = 'CoreModule'
+  spec.version          = '0.0.1'
+  spec.summary          = 'A CoreModule is a set of essential helpers for iOS projects'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
+#
+#  s.description      = <<-DESC
+#TODO: Add long description of the pod here.
+#                       DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/EslamAbotaleb/CoreModule'
+  spec.homepage         = 'https://github.com/EslamAbotaleb/CoreModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'EslamAbotaleb' => 'e.baiomy@mobily.com.sa' }
-  s.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => s.version.to_s }
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'EslamAbotaleb' => 'e.baiomy@mobily.com.sa' }
+  spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => spec.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  spec.ios.deployment_target = '13.0'
+  spec.platform = :ios, '13.0'
+  spec.swift_versions = ['4.2', '5', '5.1', '5.2', '5.6', "5.9"]
+  spec.requires_arc = true
+  spec.source_files = 'CoreModule/Classes/**/*'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'CoreModule/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'CoreModule' => ['CoreModule/Assets/*.png']
   # }
