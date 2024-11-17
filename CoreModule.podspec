@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.name             = 'CoreModule'
   spec.version          = '0.0.1'
   spec.summary          = 'A CoreModule is a set of essential helpers for iOS projects'
-
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -24,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/EslamAbotaleb/CoreModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author           = { 'EslamAbotaleb' => 'e.baiomy@mobily.com.sa' }
+  spec.author           = { 'EslamAbotaleb' => 'eslamabotaleb07@gmail.com' }
   spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => spec.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   spec.ios.deployment_target = '13.0'
@@ -32,10 +31,9 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['4.2', '5', '5.1', '5.2', '5.6', "5.9"]
   spec.requires_arc = true
   spec.source_files = 'CoreModule/Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'CoreModule' => ['CoreModule/Assets/*.png']
-  # }
+  spec.resource_bundles = {
+     'CoreModule' => ['CoreModule/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
