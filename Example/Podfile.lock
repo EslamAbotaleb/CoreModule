@@ -2,10 +2,6 @@ PODS:
   - Alamofire (5.10.1)
   - AlignedCollectionViewFlowLayout (1.1.2)
   - AnimatedCollectionViewLayout (1.1.0)
-  - AppCenter/Core (5.0.5)
-  - AppCenter/Distribute (5.0.5):
-    - AppCenter/Core
-  - AzureNotificationHubs-iOS (3.1.5)
   - BetterSegmentedControl (2.0.1)
   - CalendarDateRangePicker (2.0)
   - CocoaLumberjack (3.8.5):
@@ -183,13 +179,10 @@ PODS:
     - CocoaLumberjack (~> 3.0)
   - SwiftSoup (2.7.3)
   - Toast-Swift (5.0.1)
-  - TransitionButton (0.5.2)
 
 DEPENDENCIES:
   - AlignedCollectionViewFlowLayout
   - AnimatedCollectionViewLayout
-  - AppCenter/Distribute
-  - AzureNotificationHubs-iOS
   - BetterSegmentedControl
   - CalendarDateRangePicker
   - CoreModule (from `../`)
@@ -222,15 +215,12 @@ DEPENDENCIES:
   - SVGKit
   - SwiftSoup
   - Toast-Swift (= 5.0.1)
-  - TransitionButton (= 0.5.2)
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlignedCollectionViewFlowLayout
     - AnimatedCollectionViewLayout
-    - AppCenter
-    - AzureNotificationHubs-iOS
     - BetterSegmentedControl
     - CalendarDateRangePicker
     - CocoaLumberjack
@@ -281,7 +271,6 @@ SPEC REPOS:
     - SVGKit
     - SwiftSoup
     - Toast-Swift
-    - TransitionButton
 
 EXTERNAL SOURCES:
   CoreModule:
@@ -291,8 +280,6 @@ SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
   AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
   AnimatedCollectionViewLayout: 0c1a38c4be115c525c887be183fc91ef65737c5d
-  AppCenter: 994875ea7941b9e168babb98299f900a94bcef13
-  AzureNotificationHubs-iOS: e5de62f44d7915a5cc3c5194ddc57cf2ee78873e
   BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
   CalendarDateRangePicker: fa5f660023cf896180c04fe5c7687106734a54e4
   CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
@@ -344,8 +331,7 @@ SPEC CHECKSUMS:
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
   SwiftSoup: e3849c3293b1efee9cf892f91f6ae5c22bfeb5f7
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
-  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: 5a0f9399fd893fb2c25434b56fd7ec2d76f93e6c
+PODFILE CHECKSUM: b46afbd73ff743a748debdeb30ee99f76db13419
 
 COCOAPODS: 1.13.0
