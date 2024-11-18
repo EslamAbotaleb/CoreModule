@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
 #    }
     spec.subspec 'Core' do |core|
         core.framework = 'UIKit'
-        core.dependency 'Alamofire'
+        core.dependency 'Alamofire', '~> 5.4'
         core.dependency 'RxSwift'
         core.dependency 'RxCocoa'
         core.dependency 'RxAlamofire'
