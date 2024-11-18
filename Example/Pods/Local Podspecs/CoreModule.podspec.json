@@ -15,7 +15,7 @@
     "tag": "v0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.0"
   },
   "swift_versions": [
     "4",
@@ -32,18 +32,8 @@
   "subspecs": [
     {
       "name": "Core",
-      "frameworks": "UIKit",
       "dependencies": {
-        "Alamofire": [
-          "~> 5.4"
-        ],
-        "RxSwift": [
-
-        ],
-        "RxCocoa": [
-
-        ],
-        "RxAlamofire": [
+        "Kingfisher": [
 
         ]
       }

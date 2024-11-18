@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
     #    spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => spec.version.to_s }
     spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => 'v0.0.1' }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    spec.ios.deployment_target = '10.0'
-    spec.platform = :ios, '10.0'
+    spec.ios.deployment_target = '12.0'
+    spec.platform = :ios, '12.0'
     spec.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6', "5.9"]
     spec.requires_arc = true
 #    spec.source_files = 'CoreModule/Classes/**/*'
@@ -36,14 +36,13 @@ Pod::Spec.new do |spec|
 #        'CoreModule' => ['CoreModule/Assets/*.png']
 #    }
     spec.subspec 'Core' do |core|
-        core.framework = 'UIKit'
-        core.dependency 'Alamofire', '~> 5.4'
-        core.dependency 'RxSwift'
-        core.dependency 'RxCocoa'
-        core.dependency 'RxAlamofire'
+#        core.dependency 'Alamofire', '4.9.0'
+#        core.dependency 'RxSwift'
+#        core.dependency 'RxCocoa'
+#        core.dependency 'RxAlamofire'
 #        core.dependency 'JGProgressHUD'
 #        core.dependency 'IQKeyboardManagerSwift'
-#        core.dependency 'Kingfisher'
+        core.dependency 'Kingfisher'
     end
     spec.default_subspec = 'Core'
     # s.public_header_files = 'Pod/Classes/**/*.h'
