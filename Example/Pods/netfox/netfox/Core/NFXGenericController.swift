@@ -13,12 +13,10 @@ import Cocoa
 #endif
 
 class NFXGenericController: NFXViewController {
-    
     var selectedModel: NFXHTTPModel = NFXHTTPModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         #if os(iOS)
         edgesForExtendedLayout = UIRectEdge.all
         view.backgroundColor = NFXColor.NFXGray95Color()

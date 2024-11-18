@@ -14,5 +14,5 @@ class NFXSettingsController: NFXGenericController {
     var nfxURL = "https://github.com/kasketis/netfox"
     
     var tableData = [HTTPModelShortType]()
-    var filters = NFXHTTPModelManager.shared.filters
+    var filters = [Bool]()
 }

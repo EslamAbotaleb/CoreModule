@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="netfox-logo.svg" />
-</p>
+![Netfox: A lightweight, one line setup, network debugging library](https://raw.githubusercontent.com/kasketis/netfox/master/netfox-logo.png)
 
 <p align="center">
 <img alt="Version" src="https://img.shields.io/badge/version-1.20.0-green.svg?style=flat-square" />
