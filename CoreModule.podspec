@@ -47,6 +47,4 @@ Pod::Spec.new do |spec|
     spec.default_subspec = 'Core'
     # s.public_header_files = 'Pod/Classes/**/*.h'
     spec.frameworks = 'UIKit'
-    
-    # s.dependency 'AFNetworking', '~> 2.3'
-end
+    end
