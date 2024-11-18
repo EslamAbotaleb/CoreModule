@@ -12,12 +12,13 @@
   },
   "source": {
     "git": "https://github.com/EslamAbotaleb/CoreModule.git",
-    "tag": "0.0.1"
+    "tag": "v0.0.1"
   },
   "platforms": {
     "ios": "12.0"
   },
   "swift_versions": [
+    "4",
     "4.2",
     "5",
     "5.1",
@@ -33,6 +34,7 @@
     ]
   },
   "default_subspecs": "Core",
+  "frameworks": "UIKit",
   "subspecs": [
     {
       "name": "Core",

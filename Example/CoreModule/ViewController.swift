@@ -7,12 +7,17 @@
 //
 
 import UIKit
-
+import CoreModule
+import Alamofire
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var request =
+        URLRequest(url: URL(string:"")!)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
     }
 
     override func didReceiveMemoryWarning() {
