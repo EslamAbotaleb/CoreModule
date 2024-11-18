@@ -15,7 +15,7 @@
     "tag": "v0.0.1"
   },
   "platforms": {
-    "ios": "12.0"
+    "ios": "10.0"
   },
   "swift_versions": [
     "4",
@@ -27,12 +27,6 @@
     "5.9"
   ],
   "requires_arc": true,
-  "source_files": "CoreModule/Classes/**/*",
-  "resource_bundles": {
-    "CoreModule": [
-      "CoreModule/Assets/*.png"
-    ]
-  },
   "default_subspecs": "Core",
   "frameworks": "UIKit",
   "subspecs": [

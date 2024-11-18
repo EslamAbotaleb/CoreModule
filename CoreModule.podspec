@@ -27,8 +27,8 @@ Pod::Spec.new do |spec|
     #    spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => spec.version.to_s }
     spec.source           = { :git => 'https://github.com/EslamAbotaleb/CoreModule.git', :tag => 'v0.0.1' }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-    spec.ios.deployment_target = '12.0'
-    spec.platform = :ios, '12.0'
+    spec.ios.deployment_target = '10.0'
+    spec.platform = :ios, '10.0'
     spec.swift_versions = ['4', '4.2', '5', '5.1', '5.2', '5.6', "5.9"]
     spec.requires_arc = true
 #    spec.source_files = 'CoreModule/Classes/**/*'
